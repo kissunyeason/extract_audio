@@ -13,70 +13,60 @@
 
 使用以下命令安装所需的依赖库：
 
-```
 pip install pydub
-```
+
 
 确保您的环境中已经安装了FFmpeg工具。如果尚未安装，请根据您的操作系统进行安装。
 
 - **Windows**: 可以从 [FFmpeg官方网站](https://ffmpeg.org/download.html#build-windows) 下载预编译的静态版本，并将其添加到系统路径中。
 - **macOS**: 使用Homebrew进行安装，运行以下命令：
 
-```
 brew install ffmpeg
-```
+
 
 - **Linux**: 使用适合您的包管理器进行安装，例如：
 
-```
 apt-get install ffmpeg
-```
+
 
 ## 使用
 
 1. 克隆项目到本地：
 
-```
 git clone https://github.com/your-username/audio-extraction-tool.git
-```
+
 
 2. 进入项目目录：
 
-```
 cd audio-extraction-tool
-```
+
 
 3. 创建一个Python虚拟环境（可选）：
 
-```
 python -m venv venv
-```
+
 
 4. 激活虚拟环境：
 
 - **Windows**:
 
-```
 venv\Scripts\activate
-```
+
 
 - **macOS/Linux**:
 
-```
 source venv/bin/activate
-```
+
 
 5. 安装依赖库：
 
-```
 pip install -r requirements.txt
-```
+
 
 6. 运行音频提取工具：
 
-```
 python audio_extraction.py
-```
+
 
 7. 按照提示输入视频文件路径和输出音频文件路径，然后按回车键开始音频提取。
 
