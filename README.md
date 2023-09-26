@@ -29,7 +29,7 @@ brew install ffmpeg
 - **Linux**: 使用适合您的包管理器进行安装，例如：
 
 ```shell
-apt-get install ffmpeg
+sudo apt-get install ffmpeg
 ```
 
 ## 使用
